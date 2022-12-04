@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github repo]()
-- Live Site URL: [live site]()
+- Solution URL: [github repo](https://github.com/Nabster2010/bookmark-landing-page)
+- Live Site URL: [live site](https://elaborate-peony-4cd6b1.netlify.app/)
 
 ### Built with
 
