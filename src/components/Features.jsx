@@ -25,7 +25,6 @@ const TabSection = () => {
   return (
     <Tabs.Root className="TabsRoot" defaultValue="tab1">
       <Tabs.List aria-label="" className="md:flex md:justify-center px-8">
-        {/* {"divide-y md:divide-y-0 border-GrayishBlue/40 border-t md:border-t-0 border-b"} */}
         <div className="flex flex-col md:flex-row justify-center items-center  divide-GrayishBlue/40  w-full mt-10 md:max-w-3xl  ">
           <Tabs.Trigger
             className="text-GrayishBlue border-b border-t  md:border-t-0 hover:text-SoftRed transition-all  trigger text-lg  w-full "
@@ -48,7 +47,7 @@ const TabSection = () => {
         </div>
       </Tabs.List>
       <Tabs.Content
-        className="mt-20 md:mt-16 relative md:flex justify-center gap-8 items-center"
+        className="mt-20 tab md:mt-16 relative md:flex justify-center gap-8 items-center"
         value="tab1"
       >
         {/* Hero img */}
@@ -78,7 +77,7 @@ const TabSection = () => {
         </div>
       </Tabs.Content>
       <Tabs.Content
-        className="mt-20 md:mt-0  relative md:flex justify-center gap-8 items-center"
+        className="mt-20 md:mt-0 tab relative md:flex justify-center gap-8 items-center"
         value="tab2"
       >
         {/* Hero img */}
@@ -107,7 +106,7 @@ const TabSection = () => {
         </div>
       </Tabs.Content>
       <Tabs.Content
-        className="mt-20 md:mt-0  relative md:flex justify-center gap-8 items-center "
+        className="mt-20 md:mt-0 tab relative md:flex justify-center gap-8 items-center "
         value="tab3"
       >
         <div className="relative px-8 flex justify-center md:justify-end z-10   md:flex-1">

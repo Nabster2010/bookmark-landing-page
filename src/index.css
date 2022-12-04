@@ -17,6 +17,17 @@
   height: 4px;
   background-color: hsl(0, 94%, 66%);
 }
+.tab[data-state="active"] {
+  animation: slide 1000ms ease-in;
+}
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 @media screen and (min-width: 768px) {
   .trigger[data-state="active"]::after {
     width: 100%;
